@@ -7,11 +7,10 @@ export const TextGenerateEffect = ({
   words,
   className,
 }: {
-  words: string;
+  words: { word: string, bold: boolean }[];
   className?: string;
 }) => {
   const [scope, animate] = useAnimate();
-  let wordsArray = words.split(" ");
   useEffect(() => {
     animate(
       "span",
@@ -28,16 +27,14 @@ export const TextGenerateEffect = ({
   const renderWords = () => {
     return (
       <motion.div ref={scope}>
-        {wordsArray.map((word, idx) => {
-          return (
+        {words.map(({ word, bold }, idx) => (
             <motion.span
               key={word + idx}
-              className="dark:text-white text-black opacity-0"
+              className={`dark:text-white text-black opacity-0 ${bold ? 'font-black' : 'font-normal'}`}
             >
               {word}{" "}
             </motion.span>
-          );
-        })}
+        ))}
       </motion.div>
     );
   };
@@ -45,7 +42,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="mt-4">
-        <div className=" dark:text-white text-black text-2xl leading-snug tracking-wide">
+        <div className=" dark:text-white text-black leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
