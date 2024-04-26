@@ -1,11 +1,13 @@
+"use client";
+
+import Link from "next/link";
 import { useState } from "react"
 
 export function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   
-    // TODO: fix links
     return (
-      <header className="z-[50] fixed top-0 w-full border-b backdrop-blur-sm bg-white/[0.6] dark:bg-black/[0.6] border-neutral-200 dark:border-white/[0.1]" style={{ transform: 'none' }}>
+      <header className="z-[50] fixed top-0 w-full border-b backdrop-blur bg-white/[0.7] dark:bg-black/[0.7] border-b border-neutral-200 dark:border-white/[0.1]" style={{ transform: 'none' }}>
         <div className="container flex h-16 items-center max-w-[88rem] mx-auto">
           <div className="mr-4 hidden md:flex">
             <a className="flex items-center justify-center space-x-2 text-2xl font-bold py-6 text-center text-neutral-600 dark:text-gray-100 selection:bg-emerald-500 mr-10" href="/">
@@ -32,10 +34,10 @@ export function Header() {
             </div>
           </a>
           <nav className="flex items-center space-x-6 text-sm font-medium xl:flex">
-            <a className="transition-colors hover:text-foreground/80 text-foreground/60 hidden sm:block" href="/components">Fitting</a>
-            <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="/pricing">Über uns</a>
-            <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="/pricing">Unternehmen</a>
-            <a className="transition-colors hover:text-foreground/80 text-foreground/60" href="/pricing">Kontakt</a>
+            <Link href="#fitting" scroll={true}>Fitting</Link>
+            <Link href="#about" scroll={true}>Über uns</Link>
+            <Link href="#company" scroll={true}>Unternehmen</Link>
+            <Link href="#contact" scroll={true}>Kontakt</Link>
           </nav>
   
         </div>
