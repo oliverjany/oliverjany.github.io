@@ -20,6 +20,7 @@ export default function RootLayout({
     <html lang="en" style={{ scrollBehavior: 'smooth' }}>
       <Head>
         <link rel="icon" href="./favicon.ico" />
+        <link rel="manifest" href="./site.webmanifest" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
