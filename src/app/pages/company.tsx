@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export const CompanyPage = () => (
     <div id="company" className="flex flex-col items-center w-[100%] gap-8 pt-16 pb-16 backdrop-blur-3xl bg-white/[0.8] dark:bg-neutral-900/[0.8] border-y border-neutral-200 dark:border-white/[0.1]">
         <div className="flex flex-col max-w-screen-xl">
@@ -13,7 +15,7 @@ export const CompanyPage = () => (
                 Aber auch jedes am Markt erhältliche Produkt kann entsprechend angepasst werden.
             </div>
 
-            <img src="schaftvermessung.jpg" />
+            <Image src="/schaftvermessung.jpg" width={1400} height={200} alt="" />
 
             <div className="mt-6 mb-0 text-lg font-light text-black dark:text-neutral-300">
                 Jeder Schaft weist strukturelle Unregelmäßigkeiten auf, welche sich störend auf Schwung und Ballkontakt auswirken. 

@@ -2,6 +2,7 @@
 
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { Card } from "@/components/ui/card";
+import Image from "next/image";
 
 export const AboutPage = () => (
     <div id="about" className="flex flex-col items-center w-[100%] gap-8 pt-16 pb-16">
@@ -16,7 +17,7 @@ export const AboutPage = () => (
                 <div>
                     <div style={{ height: '0px' }} />
                     <Card className="bg-white dark:bg-gray-500/15">
-                        <img src="ing-oliver-jany.png" />
+                        <Image src="/ing-oliver-jany.png" width={400} height={400} alt="Inhaber" />
 
                         <h2 className="text-2xl z-10 mt-6  font-semibold dark:text-white">
                             Ing. Oliver Jany

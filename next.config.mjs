@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: 'golfwerkstatt',
+    basePath: '/golfwerkstatt',
     output: 'export',
     reactStrictMode: true,
 };

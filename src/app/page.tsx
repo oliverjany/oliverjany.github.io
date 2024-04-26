@@ -10,6 +10,7 @@ import { CompanyPage } from "./pages/company";
 import { ContactPage } from "./pages/contact";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import Image from "next/image";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -50,25 +51,25 @@ export default function Home() {
               className="border-b border-neutral-200 dark:border-white/[0.1]"
             >
               <SwiperSlide>
-                <img src="_DSF1731.jpg" />
+                <Image src="/_DSF1731.jpg" alt="golf-club" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="edited_clubs.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="_DSF1746.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="_DSF1747.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="_DSF1737.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="_DSF1740.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="_DSF1743.jpg" />
+                <Image src="/edited_clubs.jpg" alt="golf-club" />
+              </SwiperSlide>/
+              <SwiperSlide>/
+                <Image src="/_DSF1746.jpg" alt="golf-club" />
+              </SwiperSlide>/
+              <SwiperSlide>/
+                <Image src="/_DSF1747.jpg" alt="golf-club" />
+              </SwiperSlide>/
+              <SwiperSlide>/
+                <Image src="/_DSF1737.jpg" alt="golf-club" />
+              </SwiperSlide>/
+              <SwiperSlide>/
+                <Image src="/_DSF1740.jpg" alt="golf-club" />
+              </SwiperSlide>/
+              <SwiperSlide>/
+                <Image src="/_DSF1743.jpg" alt="golf-club" />
               </SwiperSlide>
 
             </Swiper>

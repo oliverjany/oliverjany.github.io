@@ -2,6 +2,7 @@
 
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { Card } from "@/components/ui/card";
+import Image from "next/image";
 
 export const FittingPage = () => (
     <div id="fitting" className="flex flex-col items-center w-[100%] gap-8 pt-16 pb-16 backdrop-blur-3xl bg-white/[0.8] dark:bg-neutral-900/[0.8] border-y border-neutral-200 dark:border-white/[0.1]">
@@ -40,7 +41,7 @@ export const FittingPage = () => (
                 <div>
                     <div style={{ height: '0px' }} />
                     <Card className="bg-white dark:bg-red-500/15 text-lg font-light text-black dark:text-neutral-300">
-                        <img src="industrie-fitting.jpg" />
+                        <Image src="/industrie-fitting.jpg" width={400} height={200} alt="Industrie-Fitting" />
 
                         <h2 className="text-2xl relative z-10 mt-4  font-semibold text-red-500">
                             Industrie-Fitting
@@ -71,7 +72,7 @@ export const FittingPage = () => (
 
                 <div>
                     <Card className="bg-white dark:bg-green-500/15 text-lg font-light text-black dark:text-neutral-300">
-                        <img src="body-geometry-fitting.jpg" />
+                        <Image src="/body-geometry-fitting.jpg" width={400} height={200} alt="Body-Geometry-Fitting" />
 
                         <h2 className="text-2xl relative z-10 mt-4  font-semibold text-green-500">
                             Body Geometry Fitting
