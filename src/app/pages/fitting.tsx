@@ -72,7 +72,7 @@ export const FittingPage = () => (
 
                 <div>
                     <Card className="bg-white dark:bg-green-500/15 text-lg font-light text-black dark:text-neutral-300">
-                        <Image src="/body-geometry-fitting.jpg" width={400} height={200} alt="Body-Geometry-Fitting" />
+                        <Image src="./body-geometry-fitting.jpg" width={400} height={200} alt="Body-Geometry-Fitting" />
 
                         <h2 className="text-2xl relative z-10 mt-4  font-semibold text-green-500">
                             Body Geometry Fitting

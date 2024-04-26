@@ -51,25 +51,25 @@ export default function Home() {
               className="border-b border-neutral-200 dark:border-white/[0.1]"
             >
               <SwiperSlide>
-                <Image src="/_DSF1731.jpg" alt="golf-club" />
+                <Image src="./_DSF1731.jpg" alt="golf-club" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/edited_clubs.jpg" alt="golf-club" />
+                <Image src="./edited_clubs.jpg" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/_DSF1746.jpg" alt="golf-club" />
+                <Image src="./_DSF1746.jpg" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/_DSF1747.jpg" alt="golf-club" />
+                <Image src="./_DSF1747.jpg" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/_DSF1737.jpg" alt="golf-club" />
+                <Image src="./_DSF1737.jpg" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/_DSF1740.jpg" alt="golf-club" />
+                <Image src="./_DSF1740.jpg" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/_DSF1743.jpg" alt="golf-club" />
+                <Image src="./_DSF1743.jpg" alt="golf-club" />
               </SwiperSlide>
 
             </Swiper>
