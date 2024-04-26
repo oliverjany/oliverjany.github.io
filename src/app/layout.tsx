@@ -19,8 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en" style={{ scrollBehavior: 'smooth' }}>
       <head>
-        <link rel="icon" href="golfwerkstatt/favicon.ico" />
-        <link rel="manifest" href="golfwerkstatt/site.webmanifest" />
+        <link rel="icon" href="favicon.ico" />
+        <link rel="manifest" href="site.webmanifest" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
