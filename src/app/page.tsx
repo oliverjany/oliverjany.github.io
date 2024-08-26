@@ -52,25 +52,25 @@ export default function Home() {
             >
               <SwiperSlide>
                 {/* <Image src="/clubs/_DSF1731.webp" width={100} height={100} alt="golf-club" /> */}
-                <Image src="/clubs/_DSF1731.webp" alt="golf-club" />
+                <Image src="/golfwerkstatt/clubs/_DSF1731.webp" alt="golf-club" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/clubs/edited_clubs.webp" alt="golf-club" />
+                <Image src="/golfwerkstatt/clubs/edited_clubs.webp" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/clubs/_DSF1746.webp" alt="golf-club" />
+                <Image src="/golfwerkstatt/clubs/_DSF1746.webp" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/clubs/_DSF1747.webp" alt="golf-club" />
+                <Image src="/golfwerkstatt/clubs/_DSF1747.webp" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/clubs/_DSF1737.webp" alt="golf-club" />
+                <Image src="/golfwerkstatt/clubs/_DSF1737.webp" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/clubs/_DSF1740.webp" alt="golf-club" />
+                <Image src="/golfwerkstatt/clubs/_DSF1740.webp" alt="golf-club" />
               </SwiperSlide>/
               <SwiperSlide>/
-                <Image src="/clubs/_DSF1743.webp" alt="golf-club" />
+                <Image src="/golfwerkstatt/clubs/_DSF1743.webp" alt="golf-club" />
               </SwiperSlide>
 
             </Swiper>
