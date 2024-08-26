@@ -37,7 +37,7 @@ export default function Home() {
         <div
           className="relative flex flex-col  items-center justify-center text-slate-950 overflow-hidden"
         >
-          <div style={{ maxWidth: '140%', marginTop: 64 }} className="bg-black">
+          <div style={{ maxWidth: 'calc(min(3000px, 400%))', marginTop: 64 }} className="bg-black">
 
             <Swiper
               modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
@@ -52,27 +52,23 @@ export default function Home() {
             >
               <SwiperSlide>
                 {/* <Image src="/clubs/_DSF1731.webp" width={100} height={100} alt="golf-club" /> */}
-                <Image src="/golfwerkstatt/clubs/_DSF1731.webp" alt="golf-club" />
+                <img src="/golfwerkstatt/clubs/_DSF1731.webp" width={1000} alt="golf-club" />
               </SwiperSlide>
               <SwiperSlide>
-                <Image src="/golfwerkstatt/clubs/edited_clubs.webp" alt="golf-club" />
-              </SwiperSlide>/
-              <SwiperSlide>/
-                <Image src="/golfwerkstatt/clubs/_DSF1746.webp" alt="golf-club" />
-              </SwiperSlide>/
-              <SwiperSlide>/
-                <Image src="/golfwerkstatt/clubs/_DSF1747.webp" alt="golf-club" />
-              </SwiperSlide>/
-              <SwiperSlide>/
-                <Image src="/golfwerkstatt/clubs/_DSF1737.webp" alt="golf-club" />
-              </SwiperSlide>/
-              <SwiperSlide>/
-                <Image src="/golfwerkstatt/clubs/_DSF1740.webp" alt="golf-club" />
-              </SwiperSlide>/
-              <SwiperSlide>/
-                <Image src="/golfwerkstatt/clubs/_DSF1743.webp" alt="golf-club" />
+                <img src="/golfwerkstatt/clubs/edited_clubs.webp" alt="golf-club" />
               </SwiperSlide>
-
+              <SwiperSlide>
+                <img src="/golfwerkstatt/clubs/_DSF1747.webp" alt="golf-club" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/golfwerkstatt/clubs/_DSF1737.webp" alt="golf-club" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/golfwerkstatt/clubs/_DSF1740.webp" alt="golf-club" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="/golfwerkstatt/clubs/_DSF1743.webp" alt="golf-club" />
+              </SwiperSlide>
             </Swiper>
           </div>
 
