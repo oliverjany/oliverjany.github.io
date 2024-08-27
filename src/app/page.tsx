@@ -12,6 +12,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import Image from "next/image";
 
+import config from "../../next.config.mjs";
+
 // Import Swiper styles
 import 'swiper/css';
 
@@ -52,26 +54,76 @@ export default function Home() {
             >
               <SwiperSlide>
                 {/* <Image src="/clubs/_DSF1731.webp" width={100} height={100} alt="golf-club" /> */}
-                <img src="/golfwerkstatt/clubs/_DSF1731.webp" width={1000} alt="golf-club" />
+                <img src={`${config.basePath}/clubs/_DSF1731.webp`} width={1000} alt="golf-club" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/golfwerkstatt/clubs/edited_clubs.webp" alt="golf-club" />
+                <img src={`${config.basePath}/clubs/edited_clubs.webp`} width={1000} alt="golf-club" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/golfwerkstatt/clubs/_DSF1747.webp" alt="golf-club" />
+                <img src={`${config.basePath}/clubs/_DSF1747.webp`} width={1000} alt="golf-club" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/golfwerkstatt/clubs/_DSF1737.webp" alt="golf-club" />
+                <img src={`${config.basePath}/clubs/_DSF1737.webp`} width={1000} alt="golf-club" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/golfwerkstatt/clubs/_DSF1740.webp" alt="golf-club" />
+                <img src={`${config.basePath}/clubs/_DSF1740.webp`} width={1000} alt="golf-club" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/golfwerkstatt/clubs/_DSF1743.webp" alt="golf-club" />
+                <img src={`${config.basePath}/clubs/_DSF1743.webp`} width={1000} alt="golf-club" />
               </SwiperSlide>
             </Swiper>
           </div>
 
+
+          <div
+            className="flex flex-row justify-center w-[100%] bg-white/[0.8] dark:bg-neutral-900/[0.8] border-b border-neutral-200 dark:border-white/[0.1]"
+          >
+            <div
+              style={{
+                display: 'flex',
+                maxWidth: 'calc(min(1600px, 100%))',
+                flexWrap: 'wrap',
+                justifyContent: 'center',
+                columnGap: '64px',
+                paddingTop: '64px',
+                paddingBottom: '64px'
+              }}>
+              <a href='https://mizunogolf.com/de' target='_blank' style={{ width: 200, height: 200 }}>
+                <img src={`${config.basePath}/partners/mizuno-logo.svg`} height={200} width={200} />
+              </a>
+              <a href='https://www.grindworks.jp/en/#' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/grindworks-logo.png`} height={100} width={200} />
+              </a>
+              <a href='https://kbsgolfshafts.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/kbs-logo.png`} height={200} width={200} />
+              </a>
+              <a href='https://www.truetempersports.com/en-us/golf' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/true-temper-logo.svg`} height={200} width={200} />
+              </a>
+              <a href='https://nipponshaft.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/nippon-logo-01.png`} height={200} width={200} />
+              </a>
+              <a href='https://mitsubishigolf.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/mitsubishi-logo.png`} height={200} width={200} />
+              </a>
+              <a href='https://www.ustmamiya.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/ust-mamiya-logo.png`} height={200} width={200} />
+              </a>
+              <a href='https://www.aldila.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/aldila-logo-white.svg`} height={200} width={200} />
+              </a>
+              <a href='https://www.golfpride.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/golfpride-logo-white.svg`} height={200} width={200} />
+              </a>
+              <a href='https://www.lamkingrips.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/lamkin-logo.png`} height={200} width={200} />
+              </a>
+              <a href='https://www.winngrips.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <img src={`${config.basePath}/partners/winn-grips-logo-white.png`} height={200} width={200} />
+              </a>
+            </div>
+          </div>
+          
 
           <div className="font-extralight text-4xl dark:text-white pt-80 pb-4">
             BODY GEOMETRY FITTING
