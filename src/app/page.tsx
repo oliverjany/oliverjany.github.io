@@ -4,6 +4,7 @@ import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { Header } from "@/components/ui/header";
+import { Logo } from "@/components/ui/logo";
 import { FittingPage } from "./pages/fitting";
 import { AboutPage } from "./pages/about";
 import { CompanyPage } from "./pages/company";
@@ -79,54 +80,28 @@ export default function Home() {
             className="flex flex-row justify-center w-[100%] bg-white/[0.8] dark:bg-neutral-900/[0.8] border-b border-neutral-200 dark:border-white/[0.1]"
           >
             <div
+              className="flex flex-wrap py-4 px-4 gap-x-4 md:gap-x-16 md:py-16"
               style={{
-                display: 'flex',
                 maxWidth: 'calc(min(1600px, 100%))',
-                flexWrap: 'wrap',
                 justifyContent: 'center',
-                columnGap: '64px',
-                paddingTop: '64px',
-                paddingBottom: '64px'
               }}>
-              <a href='https://mizunogolf.com/de' target='_blank' style={{ width: 200, height: 200 }}>
-                <img src={`${config.basePath}/partners/mizuno-logo.svg`} height={200} width={200} />
-              </a>
-              <a href='https://www.grindworks.jp/en/#' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/grindworks-logo.png`} height={100} width={200} />
-              </a>
-              <a href='https://kbsgolfshafts.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/kbs-logo.png`} height={200} width={200} />
-              </a>
-              <a href='https://www.truetempersports.com/en-us/golf' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/true-temper-logo.svg`} height={200} width={200} />
-              </a>
-              <a href='https://nipponshaft.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/nippon-logo-01.png`} height={200} width={200} />
-              </a>
-              <a href='https://mitsubishigolf.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/mitsubishi-logo.png`} height={200} width={200} />
-              </a>
-              <a href='https://www.ustmamiya.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/ust-mamiya-logo.png`} height={200} width={200} />
-              </a>
-              <a href='https://www.aldila.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/aldila-logo-white.svg`} height={200} width={200} />
-              </a>
-              <a href='https://www.golfpride.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/golfpride-logo-white.svg`} height={200} width={200} />
-              </a>
-              <a href='https://www.lamkingrips.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/lamkin-logo.png`} height={200} width={200} />
-              </a>
-              <a href='https://www.winngrips.com' target='_blank' style={{ width: 200, height: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <img src={`${config.basePath}/partners/winn-grips-logo-white.png`} height={200} width={200} />
-              </a>
+              <Logo href='https://mizunogolf.com/de' src='/partners/mizuno-logo.svg' />
+              <Logo href='https://www.grindworks.jp/en/#' src='/partners/grindworks-logo.png' />
+              <Logo href='https://kbsgolfshafts.com' src='/partners/kbs-logo.png' />
+              <Logo href='https://www.truetempersports.com/en-us/golf' src='/partners/true-temper-logo.svg' />
+              <Logo href='https://nipponshaft.com' src='/partners/nippon-logo-01.png' />
+              <Logo href='https://mitsubishigolf.com' src='/partners/mitsubishi-logo.png' />
+              <Logo href='https://www.ustmamiya.com' src='/partners/ust-mamiya-logo.png' />
+              <Logo href='https://www.aldila.com' src='/partners/aldila-logo-white.svg' />
+              <Logo href='https://www.golfpride.com' src='/partners/golfpride-logo-white.svg' />
+              <Logo href='https://www.lamkingrips.com' src='/partners/lamkin-logo.png' />
+              <Logo href='https://www.winngrips.com' src='/partners/winn-grips-logo-white.png' />
             </div>
           </div>
-          
 
-          <div className="font-extralight text-4xl dark:text-white pt-80 pb-4">
-            BODY GEOMETRY FITTING
+
+          <div className="font-extralight text-4xl dark:text-white pt-60 pb-4">
+            Schläger nach Maß
           </div>
           <TextGenerateEffect words={[
             { word: "Deine", bold: true },
@@ -135,7 +110,7 @@ export default function Home() {
             { word: "Deine", bold: true },
             { word: "Schläger", bold: false }
           ]}
-            className="text-6xl pb-80"
+            className="text-6xl pb-60"
           />
 
           {/*<div className="flex flex-col items-center gap-8 w-[100%] bg-black pt-16 pb-16 backdrop-blur-sm bg-white/[0.6] dark:bg-black/[0.4] border-y border-neutral-200 dark:border-white/[0.1]">*/}

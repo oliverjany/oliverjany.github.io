@@ -9,7 +9,7 @@ export const AboutPage = () => (
         <div className="flex flex-col max-w-screen-xl">
 
             <div className="text-4xl font-medium dark:text-white pb-10">
-                Über GOLFWERKSTATT
+                Über EASY-GOLF
             </div>
 
 
