@@ -15,7 +15,7 @@ export const CompanyPage = () => (
                 Aber auch jedes am Markt erhältliche Produkt kann entsprechend angepasst werden.
             </div>
 
-            <Image src="./schaftvermessung.jpg" width={1400} height={200} alt="" />
+            <Image src="/schaftvermessung.jpg" width={1400} height={200} alt="" />
 
             <div className="mt-6 mb-0 text-lg font-light text-black dark:text-neutral-300">
                 Jeder Schaft weist strukturelle Unregelmäßigkeiten auf, welche sich störend auf Schwung und Ballkontakt auswirken. 

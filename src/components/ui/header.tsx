@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react"
+import Image from "next/image";
 
 export function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -15,11 +16,11 @@ export function Header() {
                 <div className="absolute h-10 w-full bg-white/[0.2] -top-10 inset-x-0 rounded-full blur-xl">
                 </div>
                 <div className="text-sm  text-emerald-500 relative z-20">
-                  <img alt="Logo" loading="lazy" width="38" height="600px" decoding="async" data-nimg="1" src="golfwerkstatt_logo_white.svg" style={{ color: 'transparent' }} />
+                  <Image alt="Logo" loading="lazy" width="38" height={600} decoding="async" data-nimg="1" src="/easy-golf_logo_white.svg" style={{ color: 'transparent' }} />
                 </div>
               </div>
               <div className="flex flex-col">
-                <h1 className="text-black dark:text-white">GOLFWERKSTATT</h1>
+                <h1 className="text-black dark:text-white">EASY-GOLF</h1>
               </div>
             </a>
           </div>
@@ -28,7 +29,7 @@ export function Header() {
               <div className="absolute h-10 w-full bg-white/[0.2] -top-10 inset-x-0 rounded-full blur-xl">
               </div>
               <div className="text-sm  text-emerald-500 relative z-20">
-                <img alt="Logo" loading="lazy" width="30" height="600px" decoding="async" data-nimg="1" src="golfwerkstatt_logo_white.svg" style={{ color: 'transparent' }} />
+                <Image alt="Logo" loading="lazy" width="30" height={600} decoding="async" data-nimg="1" src="/easy-golf_logo_white.svg" style={{ color: 'transparent' }} />
   
               </div>
             </div>

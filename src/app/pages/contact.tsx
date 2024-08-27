@@ -39,11 +39,11 @@ export const ContactPage = () => (
             <span className="material-symbols-outlined text-3xl text-white">call</span>
             +43 699 17417317
           </a>
-          <a href="mailto:kontakt@golfwerkstatt.at"
+          <a href="mailto:office@easy-golf.at"
             className="flex gap-3 items-center text-lg font-light text-black dark:text-white"
           >
             <span className="material-symbols-outlined text-3xl text-white">outgoing_mail</span>
-            kontakt@golfwerkstatt.at
+            office@easy-golf.at
           </a>
 
         </div>

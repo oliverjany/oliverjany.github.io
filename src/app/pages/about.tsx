@@ -17,7 +17,7 @@ export const AboutPage = () => (
                 <div>
                     <div style={{ height: '0px' }} />
                     <Card className="bg-white dark:bg-gray-500/15">
-                        <Image src="./ing-oliver-jany.png" width={400} height={400} alt="Inhaber" />
+                        <img src="/ing-oliver-jany.png" width={400} height={400} alt="Inhaber" />
 
                         <h2 className="text-2xl z-10 mt-6  font-semibold dark:text-white">
                             Ing. Oliver Jany
