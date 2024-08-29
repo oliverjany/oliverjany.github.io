@@ -16,7 +16,12 @@ export const Logo = ({
     children?: React.ReactNode;
 }) => {
     return (
-        <a href={href} target='_blank' className="flex flex-col justify-center w-24 md:w-36 lg:w-48 h-24 md:h-36 lg:h-48">
+        <a href={href} target='_blank'
+            className={cn(
+                "flex flex-col justify-center w-24 md:w-36 lg:w-48 h-24 md:h-36 lg:h-48",
+                className
+            )}
+        >
             <img src={`${config.basePath}${src}`} className="w-24 md:w-36 lg:w-48" />
         </a>
     );

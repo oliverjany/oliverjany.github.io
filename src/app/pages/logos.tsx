@@ -11,16 +11,34 @@ export const LogosPage = () => (
                 justifyContent: 'center',
             }}>
             <Logo href='https://mizunogolf.com/de' src='/partners/mizuno-logo.svg' />
-            <Logo href='https://www.grindworks.jp/en/#' src='/partners/grindworks-logo.png' />
+
+            <Logo className="flex dark:hidden" href='https://www.grindworks.jp/en/#' src='/partners/grindworks-logo-light.png' />
+            <Logo className="hidden dark:flex" href='https://www.grindworks.jp/en/#' src='/partners/grindworks-logo-dark.png' />
+            
             <Logo href='https://kbsgolfshafts.com' src='/partners/kbs-logo.png' />
-            <Logo href='https://www.truetempersports.com/en-us/golf' src='/partners/true-temper-logo.svg' />
+            
+            <Logo className="flex dark:hidden" href='https://www.truetempersports.com/en-us/golf' src='/partners/true-temper-logo-light.svg' />
+            <Logo className="hidden dark:flex" href='https://www.truetempersports.com/en-us/golf' src='/partners/true-temper-logo-dark.svg' />
+            
             <Logo href='https://nipponshaft.com' src='/partners/nippon-logo-01.png' />
-            <Logo href='https://mitsubishigolf.com' src='/partners/mitsubishi-logo.png' />
-            <Logo href='https://www.ustmamiya.com' src='/partners/ust-mamiya-logo.png' />
-            <Logo href='https://www.aldila.com' src='/partners/aldila-logo-white.svg' />
-            <Logo href='https://www.golfpride.com' src='/partners/golfpride-logo-white.svg' />
-            <Logo href='https://www.lamkingrips.com' src='/partners/lamkin-logo.png' />
-            <Logo href='https://www.winngrips.com' src='/partners/winn-grips-logo-white.png' />
+            
+            <Logo className="flex dark:hidden" href='https://mitsubishigolf.com' src='/partners/mitsubishi-logo-light.png' />
+            <Logo className="hidden dark:flex" href='https://mitsubishigolf.com' src='/partners/mitsubishi-logo-dark.png' />
+           
+            <Logo className="flex dark:hidden" href='https://www.ustmamiya.com' src='/partners/ust-mamiya-logo-light.png' />
+            <Logo className="hidden dark:flex" href='https://www.ustmamiya.com' src='/partners/ust-mamiya-logo-dark.png' />
+            
+            <Logo className="flex dark:hidden" href='https://www.aldila.com' src='/partners/aldila-logo-light.svg' />
+            <Logo className="hidden dark:flex" href='https://www.aldila.com' src='/partners/aldila-logo-dark.svg' />
+            
+            <Logo className="flex dark:hidden" href='https://www.golfpride.com' src='/partners/golfpride-logo-light.svg' />
+            <Logo className="hidden dark:flex" href='https://www.golfpride.com' src='/partners/golfpride-logo-dark.svg' />
+
+            <Logo className="flex dark:hidden" href='https://www.lamkingrips.com' src='/partners/lamkin-logo-light.png' />
+            <Logo className="hidden dark:flex" href='https://www.lamkingrips.com' src='/partners/lamkin-logo-dark.png' />
+            
+            <Logo className="flex dark:hidden" href='https://www.winngrips.com' src='/partners/winn-grips-logo-light.png' />
+            <Logo className="hidden dark:flex" href='https://www.winngrips.com' src='/partners/winn-grips-logo-dark.png' />
         </div>
     </div>
 );
