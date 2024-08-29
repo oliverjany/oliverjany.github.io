@@ -35,7 +35,6 @@ export const Card = ({
                 "border border-black/[0.2] group/canvas-card flex dark:border-white/[0.2]  max-w-xl w-full mx-auto p-4 relative",
                 className
             )}
-            style={{ backdropFilter: 'blur(64px) brightness(0.7)', mixBlendMode: 'normal' }}
         >
             <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
             <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />

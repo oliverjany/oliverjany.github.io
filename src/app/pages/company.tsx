@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 export const CompanyPage = () => (
-    <div id="company" className="flex flex-col items-center w-[100%] gap-8 pt-16 pb-16 backdrop-blur-3xl bg-white/[0.8] dark:bg-neutral-900/[0.8] border-y border-neutral-200 dark:border-white/[0.1]">
+    <div id="company" className="flex flex-col items-center w-[100%] gap-8 pt-16 pb-16 bg-white/[0.8] dark:bg-neutral-900/[0.8] border-y border-neutral-200 dark:border-white/[0.1]">
         <div className="flex flex-col max-w-screen-xl">
             <div className="text-4xl font-medium dark:text-white pb-10">
                 Unternehmen

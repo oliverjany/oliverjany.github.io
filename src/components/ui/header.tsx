@@ -35,7 +35,7 @@ export function Header() {
             </div>
           </a>
           <nav className="flex items-center space-x-6 text-sm font-medium xl:flex">
-            <Link href="#fitting" scroll={true}>Fitting</Link>
+            <Link href="#fitting" scroll={true}>Maßfertigung</Link>
             <Link href="#about" scroll={true}>Über uns</Link>
             <Link href="#company" scroll={true}>Unternehmen</Link>
             <Link href="#contact" scroll={true}>Kontakt</Link>
