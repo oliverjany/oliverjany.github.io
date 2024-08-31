@@ -3,7 +3,7 @@
 import { Logo } from "@/components/ui/logo";
 
 export const LogosPage = () => (
-    <div className="flex flex-row justify-center w-[100%] border-b border-neutral-200 dark:border-white/[0.1]">
+    <div className="flex flex-row justify-center w-[100%] border-b border-neutral-200 dark:border-white/[0.1] bg-white dark:bg-neutral-900/[0.8]">
         <div
             className="flex flex-wrap py-4 px-4 gap-x-4 md:gap-x-16 md:py-16"
             style={{

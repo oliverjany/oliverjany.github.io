@@ -3,7 +3,7 @@
 import { PageFrame } from "@/components/ui/pageFrame";
 
 export const AboutPage = () => (
-    <PageFrame className="" light>
+    <PageFrame id="about" className="" light>
         <div className="">
 
             <div className="text-4xl font-medium dark:text-white pb-4 lg:pb-10">

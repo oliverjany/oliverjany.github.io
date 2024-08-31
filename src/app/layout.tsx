@@ -1,21 +1,42 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
+const plex = IBM_Plex_Sans({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700"] });
 
 export const metadata: Metadata = {
   title: "EASY-GOLF",
   description: "Egal welche Größe der Golfer hat, die Winkel bleiben gleich. Die wird durch individuelle Anpassung der Schlägerlänge erreicht.",
   keywords: [
+    'Golfspiel',
+    'Golf',
+    'golf club',
+    'Golfschläger',
+    'Schlägerbau',
+    'Golfset',
+    'golf setup',
+    'golf shaft',
+    'Golfschaft',
+    'biometrisch',
+    'geometrisch',
+    'Fitting',
+    'club fitting',
+    'Schwunggewicht',
+    'swing weight',
+    'Pinkafeld',
+    'EASY-GOLF',
+    'easy golf',
+    'easygolf',
+    'easy golfen',
+    'easy golfen mit easy-golf',
+    'einfach golfen',
+    'golfen leicht gemacht',
     'PXG',
     'TourEdge',
     'Exotics',
-    'Golfspiel',
     'Golfball',
-    'Golfschläger',
-    'golf club',
     'Eisen',
     'irons',
     'Holz',
@@ -26,27 +47,17 @@ export const metadata: Metadata = {
     'chippen',
     'pitchen',
     'Driver',
-    'Golfset',
     'Schlägerkopf',
     'club head',
     'Golfgriff',
-    'golf grip',
     'grip size',
-    'Golfschaft',
-    'golf shaft',
-    'Fitting',
-    'club fitting',
-    'Schwunggewicht',
-    'swing weight',
+    'golf grip',
     'Ferrule',
     'Tape',
     'Jeff Summitt',
     'Dave Tutelman',
     'Tom Wishon',
     'Ralph Malty',
-    'biometrisch',
-    'geometrisch',
-    'Schlägerbau',
     'club making',
     'club building',
     'Golfkomponente',
@@ -81,8 +92,6 @@ export const metadata: Metadata = {
     'Fade',
     'Demo-Day',
     'Body Geometry Fitting',
-    'biometrisch',
-    'geometrisch',
     'Geometrie',
     'nach Maß',
     'custom fitting',
@@ -116,8 +125,6 @@ export const metadata: Metadata = {
     'Bunker',
     'Shaft Alignment',
     'Frequenz-Messung',
-    'golf setup',
-    'Pinkafeld'
   ]
 };
 
@@ -132,7 +139,7 @@ export default function RootLayout({
         <link rel="icon" href="favicon.ico" />
         <link rel="manifest" href="site.webmanifest" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={plex.className}>{children}</body>
     </html>
   );
 }

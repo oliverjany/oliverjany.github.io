@@ -6,6 +6,7 @@ import { FittingPage } from "./pages/fitting";
 import { AboutPage } from "./pages/about";
 import { CompanyPage } from "./pages/company";
 import { ContactPage } from "./pages/contact";
+import { IndustryPage } from "./pages/industry";
 import { LogosPage } from "./pages/logos";
 import { Imprint } from "./pages/imprint";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -92,8 +93,9 @@ export default function Home() {
           </div>
 
           <FittingPage />
-          <AboutPage />
           <LogosPage />
+          <IndustryPage />
+          <AboutPage />
           {//<CompanyPage />
           }
           <ContactPage />

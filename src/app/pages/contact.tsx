@@ -3,13 +3,13 @@
 import { PageFrame } from "@/components/ui/pageFrame";
 
 export const ContactPage = () => (
-  <PageFrame className="" light>
+  <PageFrame id="contact" className="">
     <div className="flex flex-col lg:flex-row gap-10 lg:gap-16">
 
       <iframe
         width="600"
         height="450"
-        style={{ border: 0 }}
+        style={{ border: 0, maxWidth: '100%' }}
         className="order-1"
         loading="lazy"
         allowFullScreen
