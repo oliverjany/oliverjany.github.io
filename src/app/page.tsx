@@ -86,16 +86,18 @@ export default function Home() {
               </div>
             </div>
             <div style={{ position: 'absolute', height: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <img alt="Logo" loading="lazy" decoding="async" data-nimg="1" src="/easy-golf_logo_white.svg" style={{ color: 'transparent', opacity: 0.1, width: '600px', minWidth: '600px' }} />
+              <img className="flex dark:hidden" alt="Logo" loading="lazy" decoding="async" data-nimg="1" src="/easy-golf_logo_black.svg" style={{ color: 'transparent', opacity: 0.12, width: '600px', minWidth: '600px' }} />
+              <img className="hidden dark:flex" alt="Logo" loading="lazy" decoding="async" data-nimg="1" src="/easy-golf_logo_white.svg" style={{ color: 'transparent', opacity: 0.1, width: '600px', minWidth: '600px' }} />
             </div>
           </div>
 
           <FittingPage />
           <AboutPage />
           <LogosPage />
-          <Imprint />
-          <CompanyPage />
+          {//<CompanyPage />
+          }
           <ContactPage />
+          <Imprint />
 
         </div>
       </main>

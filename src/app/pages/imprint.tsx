@@ -1,10 +1,17 @@
 "use client";
 
 import { Card } from "@/components/ui/card";
+import { PageFrame } from "@/components/ui/pageFrame";
+
+// <div id="imprint" className="flex flex-col items-center w-[100%] pt-16 pb-16 text-black dark:text-white">
 
 export const Imprint = () => (
-    <div id="imprint" className="flex flex-col items-center w-[100%] pt-16 pb-16 text-white">
+    <PageFrame className="text-black dark:text-white">
         <div style={{ maxWidth: '600px' }}>
+            <div className="text-4xl font-medium dark:text-white pb-6 lg:pb-8">
+                Impressum
+            </div>
+
             <strong>Inhaber: Ing. Oliver Jany</strong> {/* Name */}
             <br/>
             <br/>
@@ -49,5 +56,5 @@ export const Imprint = () => (
             Sie können allfällige Beschwerde auch an die
             oben angegebene E-Mail-Adresse richten.
         </div>
-    </div>
+    </PageFrame>
 );

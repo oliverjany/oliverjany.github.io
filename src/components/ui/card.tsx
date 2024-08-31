@@ -32,7 +32,7 @@ export const Card = ({
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
             className={cn(
-                "border border-black/[0.2] group/canvas-card flex dark:border-white/[0.2]  max-w-xl w-full mx-auto p-4 relative",
+                "border border-black/[0.2] group/canvas-card flex dark:border-white/[0.2] max-w-2xl basis-96 grow shrink p-4 relative",
                 className
             )}
         >
