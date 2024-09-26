@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 const plex = IBM_Plex_Sans({ subsets: ["latin"], weight: ["100", "200", "300", "400", "500", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: "EASY-GOLF",
-  description: "Egal welche Größe der Golfer hat, die Winkel bleiben gleich. Die wird durch individuelle Anpassung der Schlägerlänge erreicht.",
+  title: 'EASY-GOLF',
+  description: 'Easy golfen mit maßgefertigten Golfschlägern von EASY-GOLF. ⛳',
   keywords: [
     'Golfspiel',
     'Golf',
