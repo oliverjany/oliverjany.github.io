@@ -86,7 +86,8 @@ export const FittingPage = () => (
 
                     <div className="mt-4 mb-2">
                         Auch auf die richtige Griffstärke darf nicht vergessen werden.
-                        Mit der passenden Griffstärke können Krämpfe in der Hand vermieden werden.
+                        Einerseits können nur so die Hände richtig platziert werden.
+                        Andererseits beeinflusst eine falsche Griffstärke die Ballflugrichtung.
                     </div>
                 </Card>
             </div>
