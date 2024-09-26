@@ -6,8 +6,9 @@ import { useState } from "react";
 
 export const Imprint = () => {
     const [open, setOpen] = useState(false);
+    const maxHeight = open ? '' : '30px';
     return (
-        <div className="w-[100%]" style={{ maxHeight: open ? '' : '30px' }}>
+        <div className="w-[100%]" style={{ maxHeight, overflow: 'hidden' }}>
             <PageFrame id="imprint" className="text-black dark:text-white" light>
                 <div className="absolute top-1.5 text-xs">
                     © 2024 EASY-GOLF. Alle Rechte vorbehalten.
