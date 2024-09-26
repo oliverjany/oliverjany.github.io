@@ -14,7 +14,13 @@ export const Imprint = () => {
                     © 2024 EASY-GOLF. Alle Rechte vorbehalten.
                     <button
                         className="underline ml-4"
-                        onClick={() => setOpen((prev) => !prev)}
+                        onClick={() => setOpen((prev) => {
+                            if (!prev) {
+                                // NOTE: Not working without timeout
+                                setTimeout(() => window.scrollBy(0, 800), 16);
+                            }
+                            return !prev;
+                        })}
                     >
                         Impressum
                     </button>
